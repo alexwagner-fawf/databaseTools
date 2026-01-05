@@ -1,0 +1,23 @@
+Package: databaseTools
+Title: Interact with the NLPHH Database
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alexander", "Milles", , "alexander.milles@nlphh.de", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package allows you to upload, download and interact with the database of the NLPHH database.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    dplyr,
+    rpostgis,
+    RPostgreSQL,
+    sf,
+    DBI,
+    stringi,
+    magrittr,
+    getPass,
+    RPostgres,
+    pool
