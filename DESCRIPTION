@@ -14,4 +14,6 @@ Imports:
     DBI,
     getPass,
     RPostgres,
-    pool
+    pool,
+    sf,
+    terra
