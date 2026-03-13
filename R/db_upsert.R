@@ -102,7 +102,7 @@ db_upsert <- function(
   )
 
   if (temporary) {
-    tmp_id <- DBI::SQL(paste0("pg_temp.", DBI::dbQuoteIdentifier(con, tmp_table)))
+    tmp_id <- DBI::Id(schema = "pg_temp", table = tmp_table)
   } else {
     tmp_id <- DBI::Id(schema = schema, table = tmp_table)
   }
