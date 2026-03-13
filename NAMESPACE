@@ -3,3 +3,4 @@
 export(connect_test)
 export(db_con)
 export(listTables)
+export(db_upsert)
